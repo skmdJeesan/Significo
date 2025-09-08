@@ -1,0 +1,34 @@
+
+@import "tailwindcss";
+  
+:root {
+  --black: #000;
+  --white: #fff;
+  --cyan: #AEDEE0;
+  --dcyan: #232e2e;
+  --salmon: #EF9D71;
+  --dsalmon: #2e1816;
+}
+
+body[theme='dark'] { background-color: var(--black);}
+body[theme='dark'] .section {color: var(--white);}
+
+body[theme='cyan'] { background-color: var(--cyan);}
+body[theme='cyan'] .section {color: var(--dcyan);}
+
+body[theme='salmon'] { background-color: var(--salmon);}
+body[theme='salmon'] .section {color: var(--dsalmon);}
+
+body[theme='light'] { background-color: var(--white);}
+
+@font-face {
+  font-family: 'machina';
+  src: url(./assets/PPNeueMachina_\ Light.woff);
+}
+
+*::selection {
+  /* background-color: rgb(251, 159, 149); */
+  color: #fff;
+}
+
+.vid {clip-path: circle(var(--clip) at 51.1% 50.6%);}
