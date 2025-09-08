@@ -6,8 +6,8 @@
 
 ## 🔗 Links
 
-* **Live demo:** [open](https://skmdJeesan.github.io/Significo)
-* **Repository:** [source code](https://github.com/skmdJeesan/Significo)
+* **Live demo:**  [open](https://skmdJeesan.github.io/Significo)
+* **Repository:**  [source code](https://github.com/skmdJeesan/Significo)
 
 ---
 
