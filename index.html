@@ -11,12 +11,9 @@
       rel="stylesheet"
     />
   </head>
-  <body theme="dark">
-    <div class="main">
+  <body theme="cyan">
 
-      <div class="home section w-full h-[200vh] relative">
-        <div class="w-full sticky top-0 left-0">
-          <div class="navbar fixed  z-[4] flex items-center justify-between px-9 py-10 w-full">
+    <div class="navbar section fixed  z-[4] flex items-center justify-between px-8 py-8 w-full bg-transparent text-white">
           <div class="logo h-[2rem]">
             <svg
               width="100%"
@@ -80,24 +77,26 @@
             </svg>
           </div>
           <div class="nav-right flex items-center gap-9">
-            <a href="#" class="text-sm">Solutions</a>
-            <a href="#" class="text-sm">About</a>
-            <a href="#" class="text-sm">Insights</a>
-            <a href="#" class="text-sm">Team</a>
-            <a href="#" class="text-sm">Careers</a>
-            <a href="#" class="text-sm bg-[#F5F19C] text-black rounded p-2"
+            <a href="#solutions" class="text-sm">Solutions</a>
+            <a href="#about" class="text-sm">About</a>
+            <a href="#insights" class="text-sm">Insights</a>
+            <a href="#team" class="text-sm">Team</a>
+            <a href="#careers" class="text-sm">Careers</a>
+            <a href="#contact-us" class="text-sm bg-[#F5F19C] text-black rounded p-2"
               >Contact Us</a
             >
           </div>
-          </div>
+    </div>
 
+    <div class="main">
+      <div class="home section w-full h-[200vh] relative">
+        <div class="w-full sticky top-0 left-0">
           <div style="--clip: 100%" class="vid w-full h-full absolute left-0 top-0 bg-black overflow-hidden z-[3]">
             <video autoplay muted loop
               class="w-full h-full object-cover absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
               src="https://xgjzloifyvgpbmyonaya.supabase.co/storage/v1/object/public/files/bBj1XfrSyi/1ENIoa5sjq"
             ></video>
           </div>
-
           <div class="marquee-container w-full h-screen relative overflow-hidden">
             <div class="heading opacity-0 absolute top-[20%] left-1/2 -translate-x-1/2 w-80 text-center">
               <h1 class="text-2xl font-regular">
@@ -358,7 +357,6 @@
               </div>
             </div>
           </div>
-
           <div
             class="bottom-text absolute z-[4] bottom-[7%] w-full flex items-center justify-between px-12"
           >
@@ -375,7 +373,7 @@
         </div>
       </div>
 
-      <div class="craft section w-full flex justify-between items-start py-20 mt-22">
+      <div id="solutions" class="craft section w-full flex justify-between items-start py-20 mt-22">
 
         <div class="left-text w-[40%] sticky top-[7%] left-9">
           <p class="text-md leading-[1.5rem] font-semibold">
@@ -395,13 +393,80 @@
           </div>
         </div>
 
-        <div class="cards w-[50%]">
-          <p class="text-6xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex impedit reprehenderit odio, non amet at repellendus, illo commodi nam quae voluptates, suscipit quasi! Numquam facere ad est omnis sit quo necessitatibus, perferendis quaerat doloribus porro recusandae voluptates vel, veniam eveniet hic cupiditate voluptatem vero voluptate molestiae tempora soluta dignissimos amet? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit odio repudiandae quo modi cumque cum doloribus ad quam esse unde dignissimos ipsam excepturi sunt ut, maiores repellat reprehenderit quibusdam odit? Quasi inventore eaque ab, sequi culpa soluta temporibus rerum quia delectus maiores, aperiam sint! Qui aut magni quibusdam voluptatibus unde?</p>
+        <div class="cards w-[50%] flex flex-col gap-8 justify-end items-start py-[25%]">
+          <div class="card h-[28vh] w-[70%] border-1 flex items-center justify-between px-8 py-4 gap-2 hover:text-black hover:bg-white transition-transform duration-200">
+            <div class="h-fit w-[70%] ">
+              <h1 class="text-xl font-semibold">Driven by Purpose</h1>
+              <h4 class="text-sm mt-4 ">We believe technology can dramatically
+                improve the experience of managing health,
+                and when crafted with empathy, intention,
+                and expertise, impact lives at scale.</h4>
+            </div>
+            <div class="h-[38%] w-[30%]">
+              <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
+                <path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4 26H60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="card h-[28vh] w-[70%] border-1 flex items-center justify-between px-8 py-4 gap-2 hover:text-black hover:bg-white transition-transform duration-200">
+            <div class="h-fit w-[70%] ">
+              <h1 class="text-xl font-semibold">Driven by Purpose</h1>
+              <h4 class="text-sm mt-4 ">We believe technology can dramatically
+                improve the experience of managing health,
+                and when crafted with empathy, intention,
+                and expertise, impact lives at scale.</h4>
+            </div>
+            <div class="h-[38%] w-[30%]">
+              <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
+                <path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4 26H60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="card h-[28vh] w-[70%] border-1 flex items-center justify-between px-8 py-4 gap-2 hover:text-black hover:bg-white transition-transform duration-200">
+            <div class="h-fit w-[70%] ">
+              <h1 class="text-xl font-semibold">Driven by Purpose</h1>
+              <h4 class="text-sm mt-4 ">We believe technology can dramatically
+                improve the experience of managing health,
+                and when crafted with empathy, intention,
+                and expertise, impact lives at scale.</h4>
+            </div>
+            <div class="h-[38%] w-[30%]">
+              <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
+                <path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4 26H60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="card h-[28vh] w-[70%] border-1 flex items-center justify-between px-8 py-4 gap-2 hover:text-black hover:bg-white transition-transform duration-200">
+            <div class="h-fit w-[70%] ">
+              <h1 class="text-xl font-semibold">Driven by Purpose</h1>
+              <h4 class="text-sm mt-4 ">We believe technology can dramatically
+                improve the experience of managing health,
+                and when crafted with empathy, intention,
+                and expertise, impact lives at scale.</h4>
+            </div>
+            <div class="h-[38%] w-[30%]">
+              <svg width="100%" height="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.2" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="currentColor"></path>
+                <path d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4 26H60" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
         </div>
 
       </div>
 
-      <div class="real section w-full mb-40">
+      <div id='about' class="real section w-full mb-10">
         <div class="slides-container h-[400vh] relative">
           <div class="slides flex w-full h-[100vh] overflow-hidden sticky top-0 left-0">
             <div class="slide w-full h-full flex-shrink-0 flex items-center justify-center relative">
@@ -456,7 +521,7 @@
               <div class="absolute left-[30%] top-0 h-[12.5rem] w-[12.5rem] -translate-x-1/2 -translate-y-[30%] rounded-full overflow-hidden">
                   <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483175_horizontal%20imgs%2010.webp" alt="" class="h-full w-full object-cover">
               </div>
-              <div class="absolute left-[23%] bottom-0 -translate-x-1/2 translate-y-1/2 h-[23rem] w-[23rem] rounded-full overflow-hidden">
+              <div class="absolute left-[23%] bottom-5 -translate-x-1/2 translate-y-1/2 h-[23rem] w-[23rem] rounded-full overflow-hidden">
                   <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d34831b3_horizontal%20imgs%2009.webp" alt="" class="h-full w-full object-cover">
               </div>
               <div class="img-div h-[19rem] w-[19rem] rounded-full absolute right-0 top-0 translate-x-1/3 -translate-y-[10%] overflow-hidden">
@@ -470,7 +535,7 @@
         </div>
       </div>
 
-      <div class="para section flex h-[200vh] items-start justify-between w-full px-10 py-15 relative">
+      <div id='insights' class="para section flex h-[200vh] items-start justify-between w-full px-10 py-15 relative">
 
         <div class="left w-[45%] flex flex-col justify-center gap-10">
           <h3 class="text-2xl px-10 text-center leading-8">Working with the Significo team has been such
@@ -516,7 +581,7 @@ looking to optimize their occupational health
         </div>
       </div>
 
-      <div class="team section w-full p-10 flex flex-col items-center gap-5 mb-20">
+      <div id='team' class="team section w-full p-10 flex flex-col items-center gap-5 mb-20">
         <div class="flex justify-center mb-10 pt-10 pb-5 font-['machina']">
           <h1 class="text-6xl tracking-tight">Our team</h1>
         </div>
@@ -577,7 +642,7 @@ looking to optimize their occupational health
         </div>
       </div>
 
-      <div class="capsule section w-full h-screen flex justify-between px-10 py-10 mb-10">
+      <div id='careers' class="capsule section w-full h-screen flex justify-between px-10 py-10 mb-10">
         <div class="left w-[30%] flex flex-col justify-between">
           <div class="up text-regular w-[70%]">
             <h3 class="">
@@ -644,39 +709,34 @@ looking to optimize their occupational health
         </div>
       </div>
 
-      <div class="footer section w-full h-screen flex flex-col">
+      <div id='contact-us' class="footer section w-full h-screen flex flex-col">
 
-          <div class="footer-1 h-[45%] w-full px-10 py-15 bg-[#F5F19C]">
-            <div class="container w-full h-[100%]">
-              <div class="w-[50%] flex justify-between">
-                <div class="font-['machina'] text-5xl">
-                  <h1>Discover</h1>
-                  <h1>Significo.</h1>
+          <div class="footer-1 h-[45%] w-full px-10 py-15 bg-[#F5F19C] flex items-center justify-between">
+            <div class="left w-[60%] h-full">
+              <h1 class="capitalize text-5xl font-[machina] w-[30%] mb-8">discover significo.</h1>
+              <button class="bg-black p-3 flex items-center gap-4 text-amber-200">
+                <h2 class="uppercase">let's go</h2>
+                <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </div>
+            <div class="right flex items-start gap-10 w-[40%]">
+              <div class="w-[70%] text-md font-semibold py-7">
+                <h4>Find out how Significo's people-centered designs can make health technology more empowering.</h4>
+              </div>
+              <div class="h-[40%] w-[30%] relative">
+                <div class="h-full w-full">
+                  <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317c_ScrollUp.svg" alt="">
                 </div>
-                <div class="flex w-[40%] justify-between">
-                  <h3 class="w-[60%] mt-12 font-semibold">Find out how Significo's people-centered designs can make health technology more empowering.</h3>
-                  <div class="img-div relative">
-                    <img src="https://cdn.prod.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317c_ScrollUp.svg" alt="">
-                    <div class="h-[7rem] w-[7rem] border-1 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
-                      <svg width="30%" height="25%" viewBox="0 0 32 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16 0.703124C16 9.53968 8.83656 16.7031 0 16.7031" stroke="black" stroke-width="2"></path>
-                        <path d="M16 0.703124C16 9.53968 23.1634 16.7031 32 16.7031" stroke="black" stroke-width="2"></path>
-                        <path d="M16 0.703125L16 37.2746" stroke="currentColor" stroke-width="2"></path>
-                      </svg>
-                    </div>
+                <div class="absolute top-1/2 left-[60%] -translate-x-1/2 -translate-y-1/2">
+                  <div class="svg ">
+                    <svg width="50%" height="50%" viewBox="0 0 32 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 0.703124C16 9.53968 8.83656 16.7031 0 16.7031" stroke="black" stroke-width="2"></path>
+<path d="M16 0.703124C16 9.53968 23.1634 16.7031 32 16.7031" stroke="black" stroke-width="2"></path>
+<path d="M16 0.703125L16 37.2746" stroke="currentColor" stroke-width="2"></path>
+                    </svg>
                   </div>
                 </div>
               </div>
-
-              <div class="w-full mt-5">
-                <div class=" btn py-4 px-6 border-1 w-fit bg-black">
-                  <div class="masker flex overflow-hidden">
-                    <span class="inline-block uppercase font-semibold text-sm text-yellow-200">
-                      let's go
-                      <i class="ri-arrow-right-up-line text-md ml-2"></i>
-                    </span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
